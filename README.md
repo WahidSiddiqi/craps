@@ -1,4 +1,4 @@
-# h1 About 
+# About 
 
 My project, I chose the game craps
 
@@ -7,17 +7,16 @@ My project, I chose the game craps
 You win if a 7 or 11 roll, or lose if 2, 3, or 12 roll (known as “craps”). Any other number that rolls becomes the “point” and the point must roll again before a 7 to win.
 ```
 
-# h2 Technologies Used
+## Technologies Used
 
 ```
 HTML
 Javascript
 CSS
 ```
+## User Stories
 
 ```
-# h2 User Stories
-
 -A welcome page that reads the rules of craps
 -A "Start Craps" button for when the player has read the rules and wants to start the game
 -In the one and only main page, a few text objects, image objects to render gameplay, and buttons
