@@ -1,11 +1,13 @@
-About my project, I chose the game craps
+#h1 About 
+
+My project, I chose the game craps
 
 
 ```
 You win if a 7 or 11 roll, or lose if 2, 3, or 12 roll (known as “craps”). Any other number that rolls becomes the “point” and the point must roll again before a 7 to win.
 ```
 
-Technologies Used
+#h2 Technologies Used
 
 ```
 HTML
@@ -14,7 +16,7 @@ CSS
 ```
 
 ```
-User Stories
+#h2 User Stories
 
 -A welcome page that reads the rules of craps
 -A "Start Craps" button for when the player has read the rules and wants to start the game
@@ -26,3 +28,8 @@ User Stories
 -The bottom right button will be greyed out until the player loses all his bankroll, and then will become clickable to refresh the page with a new bankroll
 
 ```
+
+![alt text](https://i.imgur.com/jRjuS8z.png "Wireframe 1")
+
+
+![alt text](https://i.imgur.com/y8v3Vv3.png "Wireframe 2")
