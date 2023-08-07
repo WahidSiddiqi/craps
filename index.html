@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahzebs Craps Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="startScreen">
+        <h1>WELCOME TO SHAHZEBS CRAPS GAME!!!</h1>
+        <div>Craps is an exhilarating dice game that brings the casino experience to your screen.
+            Roll the dice as the shooter and aim for lucky outcomes in two main phases: the come-out and
+            point phase. Establish a point with a 7 or 11, but avoid rolling craps with a 2, 3, or 12. Once the point is
+            set, keep rolling to match it before a 7 appears. Bet on various outcomes and enjoy the social excitement of
+            this fast-paced game. Easy-to-learn rules and big payout potential make Craps a must-try for both seasoned
+            players and newcomers!</div>
+
+        <button onclick="myFunction()">Start Game</button>
+    </div>
+    <div id="gameScreen">
+        <div id="gameScreenHeader">
+            <div>Bankroll: $1000</div>
+            <div>Shahzebs Craps Game</div>
+            <div>The Players Point is: %empty</div>
+        </div>
+
+        <div id="gameScreenBoard">
+            <div id="gameBoardTitle">Game Board</div>
+            <div>
+                <div id="dice1"></div>
+                <div id="dice2"></div>
+            </div>
+        </div>
+
+        <div id="gameScreenFooter">
+            <div>
+                <div><button type="button">Decrementor!</button></div>
+                <div>Bet Adjustor</div>
+                <div><button type="button">Incrementor!</button></div>
+            </div>
+            <div><button name="rollDiceButton">Roll Dice</button></div>
+            <div><button name="resetButton">Reset Game</button></div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
