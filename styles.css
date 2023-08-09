@@ -1,3 +1,8 @@
 #gameScreen {
     display: none;
 }
+
+#welcomeTitle {
+    flex: display;
+    text-align: center;
+}
