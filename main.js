@@ -1,9 +1,9 @@
-function myFunction() {
-    const startScreenDiv = document.getElementById("startScreen");
-    const gameScreenDiv = document.getElementById("gameScreen");
+function startGame() {
+    const startScreenDiv = document.getElementById("start-screen");
+    const gameScreenDiv = document.getElementById("game-screen");
 
     startScreenDiv.style.display = "none";
-    gameScreenDiv.style.display = "block";
+    gameScreenDiv.style.display = "flex";
 }
 
 function updateBankrollHTML() {
@@ -37,10 +37,9 @@ function generateRandomDice() {
 }
 
 function rollDice() {
-    // dice1 = generateRandomDice();
-    // dice2 = generateRandomDice();
-    dice1 = 1;
-    dice2 = 1;
+    dice1 = generateRandomDice();
+    dice2 = generateRandomDice();
+
 
     updateBoardHTML();
     determineRoundStatus();
@@ -55,7 +54,7 @@ function updateBoardHTML() {
 
 function resetGameBoard() {
     playerPoint = null;
-    document.getElementById("player-point").innerHTML = "The Players Point is: ";
+    document.getElementById("player-point-number").innerHTML = "";
 }
 
 function determineRoundStatus() {
@@ -92,7 +91,7 @@ function determineRoundStatus() {
 
     } else if (notWinOrLoseRoll) {
         playerPoint = (dice1 + dice2);
-        document.getElementById("player-point").innerHTML = "The Players Point is: " + playerPoint;
+        document.getElementById("player-point-number").innerHTML = playerPoint;
     }
 }
 
@@ -117,4 +116,4 @@ dice2 = "";
 
 updateBankrollHTML();
 updateBetAndHTML();
-
+startGame();

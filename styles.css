@@ -1,8 +1,145 @@
-#gameScreen {
-    display: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./93d4c4532340deb66bad27f7bc782461.jpg");
+    background-repeat: repeat;
 }
 
-#welcomeTitle {
-    flex: display;
+#welcome-title {
+    font-size: 30px;
+    font-weight: lighter;
     text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+#game-intro {
+    text-align: center;
+    width: 500px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+#game-screen {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: blue;
+}
+
+#game-screen-header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bankroll {
+    background-color: green;
+    padding: 50px;
+    font-size: 24px;
+}
+
+
+#game-title {
+    font-size: 40px;
+    background-color: coral;
+
+}
+
+#player-point {
+    background-color: purple;
+    font-size: 24px;
+    padding: 50px;
+}
+
+#player-point-number {
+    display: inline;
+    width: 40px;
+    background-color: white;
+}
+
+#game-screen-board {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#game-screen-board-container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 900px;
+    align-items: center;
+    background-color: white;
+
+}
+
+#dice-images {
+    background-color: darkred;
+    display: flex;
+    margin-top: 200px;
+
+}
+
+#dice1 {
+    width: 200px;
+    height: 200px;
+    margin-right: 100px;
+    background-color: blue;
+}
+
+#dice2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+}
+
+#game-board-title {
+    align-self: top;
+    background-color: purple;
+    height: 50px;
+
+}
+
+#game-screen-title {
+    display: flex;
+    flex-direction: row;
+
+    background-color: pink;
+}
+
+
+
+#game-screen-footer {
+    display: flex;
+    flex-direction: row;
+    position: flex;
+
+    justify-content: space-between;
+    background-color: crimson;
+}
+
+
+
+#startGameButton {
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 100px;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }

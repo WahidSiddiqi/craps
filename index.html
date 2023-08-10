@@ -9,33 +9,37 @@
 </head>
 
 <body>
-    <div id="startScreen">
-        <h1 id="welcomeTitle">WELCOME TO SHAHZEBS CRAPS GAME!!!</h1>
-        <div id="gameIntro">Craps is an exhilarating dice game that brings the casino experience to your screen.
+    <div id="start-screen" class="flex-center flex-column">
+        <h1 id="welcome-title">WELCOME TO SHAHZEBS CRAPS GAME!!!</h1>
+        <div id="game-intro" class="flex-center">Craps is an exhilarating dice game that brings the casino experience to
+            your screen.
             Roll the dice as the shooter and aim for lucky outcomes in two main phases: the come-out and
             point phase. Establish a point with a 7 or 11, but avoid rolling craps with a 2, 3, or 12. Once the point is
             set, keep rolling to match it before a 7 appears. Bet on various outcomes and enjoy the social excitement of
             this fast-paced game. Easy-to-learn rules and big payout potential make Craps a must-try for both seasoned
             players and newcomers!</div>
 
-        <button onclick="myFunction()" type="button">Start Game</button>
+        <button onclick="startGame()" type="button" id="startGameButton">Start Game</button>
     </div>
-    <div id="gameScreen">
-        <div id="gameScreenHeader">
+    <div id="game-screen">
+        <div id="game-screen-header">
             <div id="bankroll"></div>
             <div id="game-title">Shahzebs Craps Game</div>
-            <div id="player-point">The Players Point is: </div>
-        </div>
-
-        <div id="gameScreenBoard">
-            <div id="gameBoardTitle">Game Board</div>
-            <div>
-                <div id="dice1"></div>
-                <div id="dice2"></div>
+            <div id="player-point">The Players Point is: <div id="player-point-number">00</div>
             </div>
         </div>
 
-        <div id="gameScreenFooter">
+        <div id="game-screen-board">
+            <div id="game-screen-board-container">
+                <div id="game-board-title">Game Board</div>
+                <div id="dice-images">
+                    <div id="dice1"></div>
+                    <div id="dice2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-screen-footer">
             <div>
                 <div><button onclick="betDecrementer()" type="button">Decrementor!</button></div>
                 <div id="bet-value"></div>
