@@ -48,8 +48,8 @@ function rollDice() {
 }
 
 function updateBoardHTML() {
-    document.getElementById("dice1").innerHTML = dice1;
-    document.getElementById("dice2").innerHTML = dice2;
+    document.getElementById("dice1").innerHTML = `<img src="./assets/dice${dice1}.png" />`;
+    document.getElementById("dice2").innerHTML = `<img src="./assets/dice${dice2}.png" />`;
 }
 
 function resetGameBoard() {

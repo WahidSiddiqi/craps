@@ -8,14 +8,12 @@ body {
     font-size: 30px;
     font-weight: lighter;
     text-align: center;
-    background-color: white;
     padding: 5px;
 }
 
 #game-intro {
     text-align: center;
     width: 500px;
-    background-color: white;
     padding: 5px;
     margin-top: 100px;
 }
@@ -25,43 +23,47 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    background-color: blue;
+}
+
+#startGameButton {
+    font-size: 26px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 100px;
+
 }
 
 #game-screen-header {
-    background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: white;
 }
 
 #bankroll {
-    background-color: green;
     padding: 50px;
     font-size: 24px;
+    width: 150px;
 }
 
 
 #game-title {
-    font-size: 40px;
-    background-color: coral;
-
+    font-size: 50px;
+    align-self: center;
 }
 
 #player-point {
-    background-color: purple;
     font-size: 24px;
     padding: 50px;
+    width: 150px;
 }
 
 #player-point-number {
     display: inline;
     width: 40px;
-    background-color: white;
 }
 
 #game-screen-board {
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,42 +76,35 @@ body {
     height: 700px;
     width: 900px;
     align-items: center;
-    background-color: white;
+}
 
+#game-board-title {
+    align-self: top;
+    height: 50px;
+    color: white;
+    font-size: 32px;
 }
 
 #dice-images {
-    background-color: darkred;
     display: flex;
     margin-top: 200px;
 
 }
 
-#dice1 {
+#dice1 img {
     width: 200px;
     height: 200px;
     margin-right: 100px;
-    background-color: blue;
 }
 
-#dice2 {
+#dice2 img {
     width: 200px;
     height: 200px;
-    background-color: lightcoral;
-}
-
-#game-board-title {
-    align-self: top;
-    background-color: purple;
-    height: 50px;
-
 }
 
 #game-screen-title {
     display: flex;
     flex-direction: row;
-
-    background-color: pink;
 }
 
 
@@ -117,29 +112,36 @@ body {
 #game-screen-footer {
     display: flex;
     flex-direction: row;
-    position: flex;
-
     justify-content: space-between;
-    background-color: crimson;
+    color: white;
 }
 
-
-
-#startGameButton {
-    font-size: 24px;
-    font-weight: 500;
-    border-radius: 5px;
-    margin-top: 100px;
-
-}
-
-.flex-center {
+#bet-adjustor {
+    width: 305px;
+    font-size: 32px;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
     justify-content: center;
-    align-items: center;
 }
 
-.flex-column {
-    display: flex;
-    flex-direction: column;
+#bet-decrementer-button {
+    font-size: 32px;
+    margin: 0 20px;
+}
+
+#bet-incrementer-button {
+    font-size: 32px;
+    margin: 0 20px;
+}
+
+#roll-dice-button {
+    font-size: 32px;
+}
+
+
+#reset-game-button {
+    font-size: 32px;
+    width: 305px;
 }

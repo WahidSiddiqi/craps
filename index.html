@@ -40,13 +40,15 @@
         </div>
 
         <div id="game-screen-footer">
-            <div>
-                <div><button onclick="betDecrementer()" type="button">Decrementor!</button></div>
+            <div id="bet-adjustor">
+                <div><button onclick="betDecrementer()" type="button" id="bet-decrementer-button">-</button>
+                </div>
                 <div id="bet-value"></div>
-                <div><button onclick="betIncrementer()" type="button">Incrementor!</button></div>
+                <div><button onclick="betIncrementer()" type="button" id="bet-incrementer-button">+</button>
+                </div>
             </div>
-            <div><button onclick="rollDice()">Roll Dice</button></div>
-            <div><button onclick="resetGame()">Reset Game</button></div>
+            <div><button onclick="rollDice()" id="roll-dice-button">Roll Dice</button></div>
+            <div><button onclick="resetGame()" id="reset-game-button">Reset Game</button></div>
         </div>
 
     </div>
