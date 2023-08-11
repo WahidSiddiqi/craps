@@ -107,7 +107,7 @@ number at the top right corner, if they didn't have a win/loss roll in the first
 
 
 Extracurricular
-Player can choose dice, and background/felt
+Player can choose dice, and background/felt, animated dice, fireworks on a win, maybe audio
 ```
 
 ![alt text](https://i.imgur.com/jRjuS8z.png "Wireframe 1")
