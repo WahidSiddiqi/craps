@@ -93,11 +93,17 @@ MVP
                 
                     
             
--Have a starting bankroll in the top left corner, title of my game centered at the top, and the players number at the top right corner, if they didn't have a win/loss roll in the first roll
+-Have a starting bankroll in the top left corner, title of my game centered at the top, and the players
+number at the top right corner, if they didn't have a win/loss roll in the first roll
+
 -The main image object that will change every roll
+
 -Bottom left a bet incrementor, that will have two buttons that can change the bet value, the buttons will be a -/+
+
 -Center button will be a dice roll, to start and continue the game
--The bottom right button will be greyed out until the player loses all his bankroll, and then will become clickable to refresh the page with a new bankroll
+
+-The bottom right button will be greyed out until the player loses all his bankroll, and
+ then will become clickable to refresh the page with a new bankroll
 
 
 Extracurricular
